@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 
 const UseStateBasics = () => {
-  const [text, setText] = useState('Hola mundo 123');
+  const [text, setText] = useState('Hola mundo');
     const handleChange = () => {
-        if(text === 'Hola mundo 123'){
+        if(text === 'Hola mundo'){
             setText('Jack Sari')
         }else {
-            setText('Hola mundo 123')
+            setText('Hola mundo')
         }
     }
 
